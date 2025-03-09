@@ -16,11 +16,16 @@
 
   <br/><br/>
   ### Loop Ordering
-  행렬 곱셈은 결합 법칙이 성립하므로, loop의 i,j,k의 순서를 바꿔도 결과는 똑같다.
+  행렬 곱셈은 결합 법칙이 성립하므로, loop의 i,j,k의 순서를 바꿔도 결과는 똑같음을 이용
   </br>
 ![Image](https://github.com/user-attachments/assets/9b8c9656-5bde-4c42-8b7b-52b46de19787)
 
 <br/>
 
 + i -> j -> k: A의 경우 한 line만 local 메모리에 가져올 수 있으나, B의 경우 각 column이 M번 재사용되므로 MxM 전부 local 메모리로 가져와야 함.
-+ k -> j -> i:      
++ k -> j -> i: A의 column(a11 ~ a41)과 B의 b11의 M번 곱셈이 일어남, A는 한 column만 local 메모리에, **B의 경우는 원소 하나씩만 local 메모리에 가져올 수 있음**
++ ***k -> i -> j***: A의 a11과 B의 row(b11 ~ b14)의 M번 곱셈이 일어남, B는 한 row만 local 메모리에, **A의 경우는 원소 하나씩만 local 메모리에 가져올 수 있음**
+
+</br>
+
+k -> j -> i와 k -> i -> j의 local BRAM 사용량은 동일하지만, k -> i -> j의 경우 B의 한 row를 읽어오고 AB에 write할 때 burst transfer를 이용할 수 있으므로 ***k -> i -> j*** 순서 사용

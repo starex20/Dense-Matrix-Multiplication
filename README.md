@@ -1,4 +1,4 @@
 # Dense-Matrix-Multiplication
 
 ## Block Matrix Multiplication
-https://github.com/starex20/Dense-Matrix-Multiplication/issues/1#issue-2905153686
+![Image](https://github.com/user-attachments/assets/06b9a9ad-59d6-4b16-b4ef-f5517e584b44)

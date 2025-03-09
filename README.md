@@ -29,3 +29,11 @@
 </br>
 
 k -> j -> i와 k -> i -> j의 local BRAM 사용량은 동일하지만, k -> i -> j의 경우 B의 한 row를 읽어오고 AB에 write할 때 DRAM burst transfer를 이용할 수 있으므로 ***k -> i -> j*** 순서 사용
+<br/><br/>
+### GOPs(Giga Operations Per second)
+초당 기가 연산을 의미하며, 보통 CPU,FPGA와 같은 하드웨어 성능 평가에 많이 쓰이는 컴퓨팅 단위
+<br/>
+
++ 행렬 곱셈에서의 GOPs :
+  $ GOPs = 2*matrix_size^3 / execution time(ns)
+  

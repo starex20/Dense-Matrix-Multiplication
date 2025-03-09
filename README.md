@@ -13,3 +13,6 @@
 + **case 2)**    A,B 행렬 전체를 local BRAM으로 가져올 때 : DRAM transfer 최소화, 그러나 NxN 행렬 전부 가져오므로 resource 사용량 대폭 증가. <br/>
 
    -->  행렬을 MxM 단위의 block으로 쪼개서 block 단위로 local BRAM에 읽어와서 프로세싱.
+
+  <br/><br/>
+  ### Loop Ordering

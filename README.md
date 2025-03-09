@@ -34,6 +34,8 @@ k -> j -> i와 k -> i -> j의 local BRAM 사용량은 동일하지만, k -> i ->
 초당 기가 연산을 의미하며, 보통 CPU,FPGA와 같은 하드웨어 성능 평가에 많이 쓰이는 컴퓨팅 단위
 <br/>
 
-+ 행렬 곱셈에서의 GOPs :
-  $ GOPs = 2*matrix_size^3 / execution time(ns)
++ 행렬 곱셈에서의 GOPs = 2*matrix_size^3 / execution time(ns)
+
+</br>
++ 0.36 GOPs에서 FPGA 가속 후 128 GOPs로 향상
   

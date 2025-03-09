@@ -41,5 +41,5 @@ k -> j -> i와 k -> i -> j의 local BRAM 사용량은 동일하지만, k -> i ->
 ![Image](https://github.com/user-attachments/assets/d322c485-901c-41d2-8bd8-45200a30b712)
 
 </br>
-+ 0.36 GOPs에서 FPGA 가속 후 128 GOPs로 향상(0.36 -> 128, 약 2612배 speed up)
+0.36 GOPs에서 FPGA 가속 후 128 GOPs로 향상(0.36 -> 128, 약 2612배 speed up)
   

@@ -28,4 +28,4 @@
 
 </br>
 
-k -> j -> i와 k -> i -> j의 local BRAM 사용량은 동일하지만, k -> i -> j의 경우 B의 한 row를 읽어오고 AB에 write할 때 burst transfer를 이용할 수 있으므로 ***k -> i -> j*** 순서 사용
+k -> j -> i와 k -> i -> j의 local BRAM 사용량은 동일하지만, k -> i -> j의 경우 B의 한 row를 읽어오고 AB에 write할 때 DRAM burst transfer를 이용할 수 있으므로 ***k -> i -> j*** 순서 사용

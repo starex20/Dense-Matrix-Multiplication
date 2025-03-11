@@ -1,6 +1,6 @@
 # Dense-Matrix-Multiplication
 FPGA 가속 연구실에서 학부연구생으로 활동하며 진행한 HLS를 이용한 dense matrix multiplication 최적화 pratice 입니다.
-<br/>
+<br/><br/>
 + host 코드(C++) : PCIe를 통해 alveo u250 FPGA와 통신, Xilinx XRT API를 이용하여 호스트와 FPGA 커널을 연결
 + kernel 코드(HLS) : Dense Matrix Multiplication 연산을 가속
 

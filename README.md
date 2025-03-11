@@ -16,7 +16,7 @@
 
   <br/><br/>
   ### Loop Ordering
-  행렬 곱셈은 결합 법칙이 성립하므로, loop의 i,j,k의 순서를 바꿔도 결과는 똑같음을 이용
+  행렬 곱셈은 결합 법칙이 성립하므로, for loop의 i,j,k의 순서를 바꿔도 결과는 똑같음을 이용
   </br>
 ![Image](https://github.com/user-attachments/assets/9b8c9656-5bde-4c42-8b7b-52b46de19787)
 
